@@ -10,7 +10,7 @@ yesBtn.addEventListener("click", () => {
     "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
 });
 
-noBtn.addEventListener("mouseover", () => {
+noBtn.addEventListener("click", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
