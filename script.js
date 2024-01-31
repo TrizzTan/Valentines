@@ -7,23 +7,7 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Thank You! \nI love you! 😘";
   jpg.src = "C4otf8WXAAE5ZMR.jpg";
-  noBtn.remove();
-
-  const rose = document.createElement("div");
-  rose.className = "rose";
-  wrapper.appendChild(rose);
-
-  const leaf1 = document.createElement("div");
-  leaf1.className = "leaf";
-  wrapper.appendChild(leaf1);
-
-  const leaf2 = document.createElement("div");
-  leaf2.className = "leaf";
-  wrapper.appendChild(leaf2);
-
-  const stem = document.createElement("div");
-  stem.className = "stem";
-  wrapper.appendChild(stem);
+  noBtn.remove(".no-btn");
   });
 
 
