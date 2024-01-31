@@ -25,7 +25,7 @@ yesBtn.addEventListener("click", () => {
   stem.className = "stem";
   wrapper.appendChild(stem);
   });
-});
+
 
 noBtn.addEventListener("click", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
