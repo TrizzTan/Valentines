@@ -1,12 +1,12 @@
 const wrapper = document.querySelector(".wrapper");
 const question = document.querySelector(".question");
-const gif = document.querySelector(".gif");
+const jpg = document.querySelector(".jpg");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you too! 😘";
-  gif.src =
+  jpg.src =
     "C4otf8WXAAE5ZMR.jpg";
 });
 
