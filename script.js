@@ -6,8 +6,8 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you too! 😘";
-  gif.src =
-    "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
+  jpg.src =
+    "C4otf8WXAAE5ZMR.jpg";
 });
 
 noBtn.addEventListener("click", () => {
