@@ -6,8 +6,7 @@ const noBtn = document.querySelector(".no-btn");
 
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "I love you too! 😘";
-  jpg.src =
-    "C4otf8WXAAE5ZMR.jpg";
+  jpg.src = "C4otf8WXAAE5ZMR.jpg";
 });
 
 noBtn.addEventListener("click", () => {
